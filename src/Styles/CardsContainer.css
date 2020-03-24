@@ -1,0 +1,13 @@
+.container{
+    margin-top: 0;
+    color: black;
+    position: relative;
+    top: 5%;
+}
+.card{
+    background: rgb(192, 212, 212);
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 10px;
+    
+}

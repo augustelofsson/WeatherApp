@@ -1,0 +1,68 @@
+.weatherContainer{
+    background: rgb(22, 43, 67);
+    box-shadow: 2px 4px 16px 0 black;
+    height: 90%;
+    width: 96%;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    
+}
+.weather-header h3{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.weather-header i {
+    color: yellow;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    animation:  rotateSun 5s infinite linear;
+}
+@keyframes rotateSun {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.weather-header{
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: auto;
+}
+.weather-header button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.SearchBar{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 94%;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.SearchBar::-webkit-input-placeholder {
+    font-size: 1.2rem;
+    color: #eee;
+    opacity: 0.6;
+}
+
+.currentWeather{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    position: relative;
+}
+.errorMessage{
+    font-size: 30px;
+    color: #eee;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+}

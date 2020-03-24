@@ -1,0 +1,14 @@
+body{
+    background: rgb(238, 224, 224);
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.AppContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
