@@ -1,12 +1,11 @@
 .weatherContainer{
     background: rgb(22, 43, 67);
-    box-shadow: 2px 4px 16px 0 black;
-    height: 90%;
+    box-shadow: 2px 4px 16px 0 black; 
     width: 96%;
     border-radius: 5px;
     position: relative;
     padding: 10px;
-    
+    height: 100%;
 }
 .weather-header h3{
     font-size: 2rem;
@@ -28,8 +27,11 @@
 }
 .weather-header{
     border-bottom: 2px solid #fff;
-    width: 50%;
+    width: 40%;
     margin: auto;
+}
+.searchdiv{
+    display: flex;
 }
 .weather-header button{
     background: transparent;
@@ -44,7 +46,7 @@
     border: none;
     padding: 5px;
     outline: none;
-    width: 94%;
+    width: 1000%;
     color: #fff;
     font-size: 1.3rem;
 }

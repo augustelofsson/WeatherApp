@@ -54,9 +54,9 @@ const WeatherContainer = () =>{
         <div className="weatherContainer">
             <header className="weather-header">
             <h3>Weather Forecast<i className="material-icons">wb_sunny</i></h3>
-            <React.Fragment>
+            <div className="searchdiv">
                 <SearchComponent searchCity={Search} ></SearchComponent>
-            </React.Fragment>
+            </div>
             </header>
             <div className="currentWeather">
             {errorData.cod === "404" || errorData.cod === "400" ? (
